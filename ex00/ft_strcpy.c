@@ -6,7 +6,7 @@
 /*   By: pnomzaza <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/22 13:07:08 by pnomzaza          #+#    #+#             */
-/*   Updated: 2020/06/22 14:12:22 by pnomzaza         ###   ########.fr       */
+/*   Updated: 2020/06/22 14:21:59 by pnomzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
@@ -31,15 +31,4 @@ char *ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-int main()
-{
-	char src[100];
-	char dest[100];
 
-	puts("Enter source string\n");
-	gets(src);
-	strcpy(dest, src);
-    putchar("Target string is \"%s\"\n", dest);
-
-	return (0);
-}
